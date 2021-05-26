@@ -1,11 +1,13 @@
 <template>
-	<swiper>
-		<swiper-item v-for="item in banners">
-			<a :href="item.link">
-				<img :src="item.image">
-			</a>
-		</swiper-item>
-	</swiper>
+  <div>
+    <swiper class="swiper">
+      <swiper-item v-for="item in banners">
+        <a :href="item.link">
+          <img :src="item.image">
+        </a>
+      </swiper-item>
+    </swiper>
+  </div>
 </template>
 
 <script>
@@ -31,4 +33,7 @@
 </script>
 
 <style>
+.swiper{
+  height: 160px;
+}
 </style>

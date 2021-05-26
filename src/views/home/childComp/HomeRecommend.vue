@@ -26,6 +26,10 @@ export default {
 <style scoped>
 .recommend{
   display: flex;
+  background-color: #fff;
+  font-size: 12px;
+  padding: 10px 0 20px;
+  border-bottom: 10px solid #ededed;
 }
 
 .recommend-item{
